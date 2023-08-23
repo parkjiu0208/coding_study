@@ -5,8 +5,7 @@ def solution(a, b):
         return int(b+a)
     else:
         return int(a+b)
-    answer = 0
-    return answer
+
 
 print(solution(9,91))
 
