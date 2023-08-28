@@ -8,5 +8,9 @@ def solution(num_list):
             odd+=str(num_list[i])
     result = int(even)+int(odd)
     return result
+
+num_list1 = [3, 4, 5, 2, 1]
+
+print(solution(num_list1))
 #리스트를 문자열로 가져오는 것을 알게 되었음.
 #빈 문자열을 만든 후, 리스트 값을 문자열로 변환하여 빈 문자열에 넣기.
