@@ -18,5 +18,5 @@ def solution(str_list):
         elif li == 'r':
             return str_list[str_list.index('r')+1:]
 
--> 이건 기원오빠 코드. +1을 안한 걸 오빠 코드 통해서 알았다... ㅠ 한끝차이
+-> 이건 동기의 코드. +1을 안한 걸 이 코드 통해서 알았다... ㅠ 한끝차이
 '''
