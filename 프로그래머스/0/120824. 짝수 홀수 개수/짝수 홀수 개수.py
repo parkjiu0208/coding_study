@@ -1,5 +1,4 @@
 def solution(num_list):
-    answer = []
     even = 0
     odd = 0
     for i in num_list:
@@ -7,6 +6,4 @@ def solution(num_list):
             even+=1
         else:
             odd+=1
-    answer.append(even)
-    answer.append(odd)
-    return answer
+    return [even, odd]
