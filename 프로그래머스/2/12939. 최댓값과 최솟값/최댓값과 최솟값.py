@@ -1,4 +1,3 @@
 def solution(s):
-    s = s.split(' ')
-    a = list(map(int, s))
-    return str(min(a))+' '+str(max(a))
+    s = list(map(int, s.split(' ')))
+    return str(min(s))+' '+str(max(s))
